@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: thrifttech-email-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GMAIL_USER
+        value: victorythrifttech@gmail.com
+      - key: GMAIL_APP_PASSWORD
+        sync: false
