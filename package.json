@@ -1,4 +1,4 @@
-
+{
   "name": "thrifttech-email-backend",
   "version": "1.0.0",
   "description": "Backend email service for ThriftTech verification emails",
